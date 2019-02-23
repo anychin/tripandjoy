@@ -1,0 +1,9 @@
+/ Меню
+- if !@footer_menu.nil?
+  %ul#bottom-tabs.nav.nav-tabs
+    - @footer_menu.each do |m|
+      - clazz = ""
+      - clazz = "active" if @url == m.url
+      %li{:class => clazz}
+        = link_to m.name, "/" + m.url
+/ /Меню

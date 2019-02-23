@@ -1,0 +1,26 @@
+
+.tabbable.tabs-below
+  .tab-content
+    / Миссии
+    #mission.tab-pane{"data-route"=>"main"}
+    / /Миссии
+
+    / Действия
+    #actions.tab-pane.actions{"data-route"=>"main"}
+      .row-fluid
+        .span7.actions-content
+          = render "/kit/top_tabs"
+          .tab-content
+            / Что делаем
+            = render "/kit/what_we_do"
+            / /Что делаем
+            / Куда летим
+            = render "/kit/where_we_fly"
+            / /Куда летим
+            / Где живем
+            = render "/kit/where_we_live"
+            / /Где живем
+        .span5
+          = render "/kit/right_panel"
+    / /Действия
+= render "/kit/order"

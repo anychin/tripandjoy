@@ -1,0 +1,24 @@
+#where-we-fly.tab-pane
+  .well.where-we-fly-filters
+    %label.input-prepend.input-append.span4
+      %span.add-on из
+      %input.span4.disabled{:type => "text", :id => "from-fly", :value => "MOW"}
+        %span.add-on в
+        %input.span4{:type => "text", :id => "where-fly", :value => "CSY"}
+    %label.span3
+      .input-append
+        %input.span7{:type => "text"}
+          %button.btn{:type => "button"}
+            %span.icon-calendar
+            %span.caret
+    %label.span2
+      %select.span12{:id => "", :name => ""}
+        %option{:value => ""} Эконом
+        %option{:value => ""} Бизнес
+    %label.span3.filter-price
+      Цена:
+      %input.price.span6{:max => "100000", :min => "0", :step => "1000", :type => "range", :value => "0"}/
+      %span.price-val 0
+    .clearfix
+
+  #tickets-box

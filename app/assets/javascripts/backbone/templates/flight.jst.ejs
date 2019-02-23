@@ -1,0 +1,14 @@
+<tbody class="<%= css_class %>">
+    <tr>
+      <td rowspan="2" class="city"><b><%= origin %></b></td>
+      <td>Дата: <%= date %></td>
+      <td>Время: <%= time %></td>
+      <td>Авиакомпания: <%= airline %></td>
+      <td rowspan="2" class="city"><b><%= destination %></b></td>
+    </tr>
+    <tr>
+      <td>Самолет: <%= (aircraft != null) ? aircraft : "не известно" %></td>
+      <td>Длительность перелета: <%= duration.toFixed(2) %> ч.</td>
+      <td>пересадок: <%= transfers %></td>
+    </tr>
+</tbody>

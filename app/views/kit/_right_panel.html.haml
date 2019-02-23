@@ -1,0 +1,89 @@
+.well.actions-right-sidebar
+  %h4
+    %span.actions-h4-icon.icon-home
+    Экстремальный отдых
+  .actions-filters-box
+    .row-fluid
+      .span12
+        %label.how-many-people
+          Сколько человек?
+          %input.span2{:type => "number", :value => "3"}/
+        .clearfix
+        .input-prepend.input-append
+          %span.add-on c
+          %input.span3{:type => "text"}
+            %button.btn
+              %span.icon-calendar
+              %span.caret
+            %span.add-on по
+            %input.span3{:type => "text"}
+              %button.btn
+                %span.icon-calendar
+                %span.caret
+      .span12
+        %table#extreme-types.table.sidebar-table
+          %tr
+            %td.title-td
+              %p.title Фрирайд
+              %p.city Зальцбург / Австралия
+            %td.price-td
+              %p
+                %span 40 600
+                руб
+            %td.action-td
+              %a{:href => "#"}
+                %span.icon-trash
+          %tr
+            %td.title-td
+              %p.title Фрирайд
+              %p.city Зальцбург / Австралия
+            %td.price-td
+              %p
+                %span 40 600
+                руб
+            %td.action-td
+              %a{:href => "#"}
+                %span.icon-trash
+          %tr
+            %td.title-td
+              %p.title Фрирайд
+              %p.city Зальцбург / Австралия
+            %td.price-td
+              %p
+                %span 40 600
+                руб
+            %td.action-td
+              %a{:href => "#"}
+                %span.icon-trash
+        %table#prices.table
+          %tr
+            %td На перелет туда и обратно
+            %td.price
+              %span.price 320 456
+              руб.
+          %tr
+            %td На проживание
+            %td.price
+              %span.price 320 456
+              руб.
+          %tr
+            %td На развлечения
+            %td.price
+              %span.price 320 456
+              руб.
+          %tr
+            %td На карманные расходы
+            %td.price
+              %span.price 320 456
+              руб.
+          %tr
+            %td
+              %span.prices-summ-title Итого
+            %td.price
+              %span.prices-summ
+                %span 410 250
+                руб
+        .buy-button
+          %a.btn.btn-large.btn-primary{"data-toggle" => "modal", :href => "#buy-a-tour", :role => "button"}
+            %span.icon-white.icon-shopping-cart
+            Приобрести тур

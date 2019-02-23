@@ -1,0 +1,185 @@
+* {
+    outline: none!important;
+}
+
+#wrap {
+    margin-top: 10px;
+}
+
+.container {
+    min-width: 1200px;
+}
+
+
+.mission-price {
+font-weight: bold;
+float: right;
+width: 50%;
+margin: 0;
+    }
+
+.mission-title {
+float: left;
+width: 50%;
+margin: 0;
+    }
+
+.logo-box {
+text-align: center;
+    }
+
+.mission-logo {
+    margin-top: 25px;
+}
+
+.mission-box {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.how-many-people {
+line-height: 51px;
+    }
+
+#bottom-tabs {
+margin-top: 50px;
+    }
+
+.actions-right-sidebar {
+    margin-top: 38px;
+}
+
+.actions-right-sidebar .sidebar-table {
+    margin-top: 18px;
+}
+
+.sidebar-table .title {
+    font-weight: bold;
+}
+
+.prices .price {
+    text-align: right;
+}
+
+.prices-summ-title, .prices-summ {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#what-we-do .title, #what-we-do .price {
+    font-size: 12px;
+}
+
+#what-we-do .city {
+    font-size: 11px;
+}
+
+#what-we-do .action.selected:before {
+    content: ":)";
+    position: absolute;
+    margin: 4px 8px;
+    font-size: 18px;
+}
+
+.buy-button {
+    text-align: center;
+}
+
+.where-we-fly-filters label {
+}
+
+.where-we-fly-filters {
+    height: 33px;
+}
+
+.where-we-fly-table {
+    width: 100%;
+}
+
+.where-we-fly-table .there {
+    background: lightgreen;
+}
+.where-we-fly-table .back {
+    background: lightblue;
+}
+
+.where-we-fly-table .city {
+    font-size: bold;
+}
+
+.where-we-fly-table tbody td {
+    font-size: 11px;
+    padding: 4px;
+    text-align: center;
+}
+
+
+.where-we-fly-item {
+    padding: 9px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background: #f5f5f5;
+    margin-bottom: 12px;
+}
+
+.where-we-fly-item .price {
+    margin-top: 9px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.where-we-live-item {
+    margin-bottom: 24px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.hotel-item {
+}
+
+.hotel-item-gallery {
+    margin-left: 0!important;
+    /*margin-top: 18px;*/
+}
+
+.hotel-item-gallery img {
+    margin: 8px 8px 0 0;
+}
+
+.where-we-live-item .hotel-item-content {
+    display: none;
+}
+
+.where-we-live-item.open .hotel-item-content {
+    display: block;
+}
+
+.buy-a-tour-table {
+    width: 350px;
+}
+
+.buy-a-tour-table td{
+    font-size: 11px;
+}
+.buy-a-tour-table tr:first-child td {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.buy-a-tour-hotel {
+    margin-top: 24px;
+}
+
+.buy-a-tour-hotel-table {
+    width: 100%;
+    font-size: 11px;
+}
+
+.buy-a-tour-hotel-table .title {
+    font-size: 13px;
+}
+
+.buy-a-tour-hotel .info {
+    margin-top: 24px;
+}

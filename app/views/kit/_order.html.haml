@@ -1,0 +1,64 @@
+/ Modal
+#buy-a-tour.modal.hide.fade{"aria-hidden" => "true", "aria-labelledby" => "Экстремальный отдых", :role => "dialog", :tabindex => "-1"}
+  .modal-header
+    %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+    %h3#myModalLabel Экстремальный отдых
+  .modal-body
+    %img{:alt => "560x200", "data-src" => "holder.js/560x200", :src => "", :style => "width: 560px; height: 200px;"}
+      %h4 Забронировать авиабилеты
+      .pull-left
+        %table.buy-a-tour-table
+          %tr
+            %td{:colspan => "2"} Москва - Мюнхен
+            %td{:colspan => "2"} Москва - Мюнхен
+          %tr
+            %td 21:10 - 23:40
+            %td Аэрофлот
+            %td 21:10 - 23:40
+            %td Аэрофлот
+          %tr
+            %td 12/12/2013
+            %td CJR
+            %td 12/12/2013
+            %td CJR
+      .pull-right
+        %img{:alt => "120x70", "data-src" => "holder.js/120x70", :src => "", :style => "width: 120px; height: 70px;"}
+      .clearfix
+      .buy-a-tour-hotel
+        .row-fluid
+          .span3
+            %img{:alt => "100x100", "data-src" => "holder.js/100x100", :src => "", :style => "width: 100px; height: 100px;"}
+          .span5
+            %table.buy-a-tour-hotel-table
+              %tr
+                %td.title{:colspan => "2"}
+                  Название отеля
+              %tr
+                %td Страна/Город
+                %td
+                  %i.icon-star
+                  %i.icon-star
+                  %i.icon-star-empty
+                  %i.icon-star-empty
+                  %i.icon-star-empty
+              %tr
+                %td
+                  %p.price
+                    %span 210 456
+                    руб.
+                %td
+                  %p
+                    %span 4
+                    человека/
+                    %span 14
+                    дней
+          .span4
+            %img.pull-right{:alt => "120x70", "data-src" => "holder.js/120x70", :src => "", :style => "width: 120px; height: 70px;"}
+          .clearfix
+          %p.info
+            Use this document as a way to quick start any new project.
+            All you get is this message and a barebones HTML document.
+  .modal-footer
+    %button.btn{"aria-hidden" => "true", "data-dismiss" => "modal"}
+      %span.icon-print
+      Отправить на печать

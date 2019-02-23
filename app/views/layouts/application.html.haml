@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    = render "/layouts/meta"
+  %body{:class => "#{controller_name} #{action_name}"}
+    #wrap.container
+      = yield
+      = render '/layouts/footer'
+  %input{:id => "tokentag", :type => "hidden", :name => "authenticity_token", :value => "#{form_authenticity_token}"}
+
