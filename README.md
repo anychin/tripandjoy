@@ -1,9 +1,9 @@
 Trip'N'Joy
 ===
 
-https://plus.google.com/communities/106643321367881783224
+Project from 2013. This is an Aggregator of excursions and air tickets.
 
-Деплой
+Deploy
 ======
 
 `cap staging deploy`
